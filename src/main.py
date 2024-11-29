@@ -1,5 +1,5 @@
-from Problem3 import sign_up
-from Problem4 import log_in
+from problems.Problem3 import sign_up
+from problems.Problem4 import log_in
 
 def main_menu():
     print("-" * 50, "\nMain Menu")

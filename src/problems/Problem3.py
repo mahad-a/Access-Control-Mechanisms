@@ -1,8 +1,8 @@
 from Problem1 import MENU_AND_ROLE, justInvestMenu, privileges
 from Problem2 import update_password_file
 
-import getpass
-import re
+import getpass # hide the password input
+import re # search the password for requirements
 
 PASSWORDS = "docs/passwd.txt"
 COMMON_PASSWORDS = "docs/common_passwords.txt"
